@@ -1,18 +1,13 @@
-import { useState } from 'react'
+
 import './App.css'
+import AdminPage from './Pages/admin_page' // make sure admin_page.tsx has a default export
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-      <p>
-        Click on the Vite and React logos to learn more
-      </p>
-
-      </div>
-    </>
+    <div className='Main'>
+      {/* Render the admin page as the first (and only) content */}
+      <AdminPage />
+    </div>
   )
 }
 

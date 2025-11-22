@@ -1,0 +1,62 @@
+.admin-page {
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  background-color: #f7f8fa;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.admin-title {
+  margin-bottom: 24px;
+  font-size: 20px;
+  color:black
+}
+
+.admin-card {
+  
+  width: 320px;
+  padding: 24px 16px;
+  align-content: center;
+  margin-bottom: 16px;
+  border-radius: 20px;
+  border: 2px round #ddd;
+  border-color: black;
+  background-color: #ffffff;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+
+.admin-card:hover {
+  box-shadow: 10px 20px 8px rgba(0, 0, 0, 0.06);
+}
+
+.admin-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-icon_1 img {
+  width: 20%;
+  height: 50%;
+  object-fit: contain;
+}
+.admin-icon_2 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.admin-card-text {
+  font-size: 16px;
+  font-weight: 500;
+}
