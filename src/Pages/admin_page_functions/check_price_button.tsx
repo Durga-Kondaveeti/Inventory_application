@@ -1,6 +1,6 @@
 import { useState } from "react"
 import AdminPage from "../admin_page"
-import "../../src/CSS/check_price.css"
+import "../../CSS/check_price_button.css"
 
 type Item = {
   id: number
